@@ -3,7 +3,13 @@ Purpose of Application: Vendors across Canada have different date formats on the
 
 
 Warnings / Dependencies:  
-- Use pip to install tkinter and PIL
+dependencies: sqlalchemy, pillow (PIL) 
+
+run : 
+-m pip install --upgrade Pillow  
+pip SQLAlchemy
+
+Warnings:
 - Before running the program, download DB Browser for SQLite and open vendors.sqlite with it.
 - vendors.sqlite must be in the same directory as main.py - main.py does not initialize a new database, only uses an existing database with a specific format.
 - Currently the database only has one entry, but can be populated through application.
