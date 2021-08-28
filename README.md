@@ -1,7 +1,7 @@
 # Receipt_Tracker
-Purpose of Application: Vendors across Canada have different date formats on their receipts (i.e., MM/DD/YY , DD/MM/YY, or YY/MM/DD). This is confusing when completing tax documents, especially for accounting firms, and can often result in guess-work. This application is tied to a database that stores receipt/invoice date formats so that individuals/businesses can look up vendor names and make more educated guesses when completing tax documents.
-
 ![grab-landing-page](https://github.com/Olaya-Sib/Receipt_Tracker/blob/bfff626c50f7e7942231b7d2f15ff2325743758d/receipt_tracker_app.gif)
+
+Purpose of Application: Vendors across Canada have different date formats on their receipts (i.e., MM/DD/YY , DD/MM/YY, or YY/MM/DD). This is confusing when completing tax documents, especially for accounting firms, and can often result in guess-work. This application is tied to a database that stores receipt/invoice date formats so that individuals/businesses can look up vendor names and make more educated guesses when completing tax documents.
 
 Dependencies: sqlalchemy, pillow (PIL) 
 
