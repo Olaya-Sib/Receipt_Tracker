@@ -2,12 +2,7 @@
 Purpose of Application: Vendors across Canada have different date formats on their receipts (i.e., MM/DD/YY , DD/MM/YY, or YY/MM/DD). This is confusing when completing tax documents, especially for accounting firms, and can often result in guess-work. This application is tied to a database that stores receipt/invoice date formats so that individuals/businesses can look up vendor names and make more educated guesses when completing tax documents.
 
 
-Warnings / Dependencies:  
-dependencies: sqlalchemy, pillow (PIL) 
-
-run : 
--m pip install --upgrade Pillow  
-pip SQLAlchemy
+Dependencies: sqlalchemy, pillow (PIL) 
 
 Warnings:
 - Before running the program, download DB Browser for SQLite and open vendors.sqlite with it.
